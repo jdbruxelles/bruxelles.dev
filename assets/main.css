@@ -30,6 +30,7 @@ body, html {height: 100%; margin: 0}
   align-items: center;
   top: 0 !important;
   display: flex;
+  z-index: 3;
 }
 .logo-container .logo-text {
   background: #ffffff
