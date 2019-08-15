@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/06d70d7c-98ca-467a-9fff-1286442eaa79/deploy-status)](https://app.netlify.com/sites/bruxelles-dev/deploys)
+
 # bruxelles-dev
 
 Êtes-vous un.e **développeur.se** (web ou autre) basé.e à **Bruxelles** et à la recherche d'un espace Web gratuit pour héberger votre portfolio ou votre autre projet ?
