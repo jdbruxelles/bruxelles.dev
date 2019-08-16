@@ -80,12 +80,45 @@
         <div class="jdb-row-padding">
           <div class="jdb-half jdb-round-large jdb-hide-small as-bg"></div>
           <div class="jdb-half">
-            <p class="jdb-xlarge jdb-center">Êtes-vous un.e <span class="jdb-text-khaki">développeur.se</span> (web ou autre) basé.e à <span class="jdb-text-khaki">Bruxelles</span> et à la recherche d'un espace Web gratuit pour héberger votre portfolio ou votre autre projet ?</p>
+            <div class="jdb-xlarge jdb-center">Êtes-vous un.e <span class="jdb-text-khaki">développeur.se</span> (web ou autre) basé.e à <span class="jdb-text-khaki">Bruxelles</span> et à la recherche d'un espace Web gratuit pour héberger votre portfolio ou votre autre projet ?</div>
             <hr class="jdb-border-grey" style="margin:auto;width:40%"/>
-            <p class="jdb-large">Consultez <a href="https://shr.wetrafa.xyz/2zcBcwZ" target="_blank" rel="noopener">GitHub</a> ou <a href="https://shr.wetrafa.xyz/2z0pjd4" target="_blank" rel="noopener">Netlify</a> pour en savoir plus. Pour que tout soit parfait, je vous fourni une URL libre, élégante et qui correspond à votre domaine et zone d'activité comme indiqué dans les exemples ci-dessus.</p>
-            <p>Vous êtes prêt.e à avoir votre place sur bruxelles.dev ? Faites votre demande via <a href="https://github.com/jdbruxelles/bruxelles-dev">GitHub</a> ou <a href="http://jose.bruxelles.dev/contact">contactez-moi</a> directement. <i>Plus de détails seront fournis ultérieurement.</i></p>
-            <hr class="jdb-border-grey" style="margin:auto;width:40%"/>
-            <p><span class="jdb-tag">Important</span> En tant que propriétaire du référentiel, vous gardez un contrôle total sur votre contenu publié. Cela signifie également que tous les droits et obligations liés à la publication d'une page GitHub (par exemple, RGPD) restent sous votre responsabilité.</p>
+            <div id="x-container-0">
+              <p class="jdb-large">Consultez <a href="https://shr.wetrafa.xyz/2zcBcwZ" target="_blank" rel="noopener noreferrer">GitHub</a> ou <a href="https://shr.wetrafa.xyz/2z0pjd4" target="_blank" rel="noopener">Netlify</a> pour en savoir plus. Pour que tout soit parfait, je vous fourni une URL libre, élégante et qui correspond à votre domaine et zone d'activité comme indiqué dans les exemples ci-dessus.</p>
+              <p>Vous êtes prêt.e à avoir votre place sur bruxelles.dev ? Faites votre demande via <a href="https://github.com/jdbruxelles/bruxelles-dev">GitHub</a> ou <a href="https://jose.bruxelles.dev/contact">contactez-moi</a> directement.</p>
+
+              <hr class="jdb-border-grey" style="margin:auto;width:40%"/>
+              <p><span class="jdb-tag">Important</span> En tant que propriétaire du projet, vous gardez un contrôle total sur votre contenu publié. Cela signifie également que tous les droits et obligations liés à la publication d'une page GitHub (par exemple, RGPD) restent sous votre entière responsabilité.</p>
+
+            </div>
+            <button class="jdb-btn-block jdb-round jdb-red" id="next-step">
+              Étapes à suivre <i class="fa fa-fw fa-angle-double-right" aria-hidden="true"></i>
+            </button>
+            <div id="x-container-1" style="display:none">
+              <p>Si vous avez opté pour le service Netlify ou un autre que GitHub Page, veuillez <a href="https://jose.bruxelles.dev/contact">me contacter</a> directement. Si non, si vous avez opté pour Github Pages, veuillez suivre les instructions suivantes :</p>
+              <div class="steps-container jdb-border">
+                <div id="step-1" class="jdb-container step-container">
+                  <p>Si vous ne l'avez pas déjà fait, il est temps de vous connecter à votre compte GitHub et de configurer votre GitHub Page en suivant les instructions fournies <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">ici</a>. Pour prendre de l'avance, vous pouvez simplement utiliser le générateur avec l'un des thèmes fournis et ajouter du contenu à votre nouvelle page.</p>
+                </div>
+
+                <div id="step-2" class="jdb-container step-container" style="display:none">
+                  <p>Vous devez maintenant déterminer votre sous-domaine bruxelles.dev : choisissez votre nom d'utilisateur, votre prénom, votre nom ou le nom de votre projet en tenant compte des URLs existantes (pour "https://foo.github.io/bar", "foo.bruxelles.dev" ou "bar.bruxelles.dev" est possible).</p> 
+                </div>
+
+                <div id="step-3" class="jdb-container step-container" style="display:none">
+                  <p>Ajoutez un fichier nommé "CNAME" à votre projet (dans la branche "gh-pages" pour les pages de projet) avec une seule ligne correspondant au domaine que vous avez choisi. (par exemple "foo.bruxelles.dev" sans guillemets). Si vous rencontrez des problèmes, consultez la section sur les <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/#creating-and-committing-a-cname-file" target="_blank" rel="noopener noreferrer">URL personnalisées</a> dans l'aide de GitHub Pages.</p>
+                </div>
+
+                <div id="step-4" class="jdb-container step-container" style="display:none">
+                  <p>Pour terminer la procédure, faites un pull request dans <a href="https://github.com/jdbruxelles/bruxelles-dev/tree/master" target="_blank" rel="noopener noreferrer">mon project GitHub</a> qui ajoute votre sous-domaine à la liste des domaines bruxelles.dev existants. Votre nouvelle URL devrait être disponible dans les 24 heures (gardez un œil sur votre pull request en cas de conflit de nom ou toute autre question de ma part).</p>
+                </div>
+              </div>
+              <div class="jdb-bar">
+                <a class="jdb-bar-item jdb-button tablink jdb-topbar jdb-hover-light-grey jdb-black" href="javascript:void(0)" >1</a>
+                <a class="jdb-bar-item jdb-button tablink jdb-hover-light-grey jdb-yellow" href="javascript:void(0)">2</a>
+                <a class="jdb-bar-item jdb-button tablink jdb-hover-light-grey jdb-red" href="javascript:void(0)">3</a>
+                <a class="jdb-bar-item jdb-button tablink jdb-hover-light-grey jdb-yellow" href="javascript:void(0)">4</a>
+              </div>
+            </div>
           </div>
         </div>
         <footer class="main-bg-img jdb-center jdb-padding-16 jdb-round-xlarge">
