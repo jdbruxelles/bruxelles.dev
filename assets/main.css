@@ -14,7 +14,7 @@ body, html {height: 100%; margin: 0}
 }
 .main-bg-img {
   border: 4px solid #ffffff;
-  background-image: url("/assets/images/foret-pont.jpg");
+  background-image: url("images/architecture-atomium-15950856.jpg");
   background-attachment: fixed;
   background-position: center;
   -webkit-background-size: cover;
@@ -54,7 +54,7 @@ img.logo {
   width: 100%;
 }
 .main-content .jdb-row-padding .jdb-half.as-bg {
-  background-image: url('/assets/images/groupe-ensemble.jpg');
+  background-image: url("images/groupe-ensemble.jpg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
