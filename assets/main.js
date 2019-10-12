@@ -4,7 +4,7 @@ $(document).ready(function(){
     strings: [
       "votre", "domaine", "gratuit",
       "prenom", "nom", "pseudo",
-      "project", "entreprise",
+      "projet", "entreprise",
       "jose", "emmanuel",
     ],
     smartBackspace: true,
