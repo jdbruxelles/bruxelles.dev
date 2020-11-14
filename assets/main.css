@@ -12,7 +12,7 @@ body, html {height: 100%; margin: 0}
   height: 100%;
   width: 100%;
 }
-.main-bg-img {
+.main-bg-img, .bg-img {
   border: 4px solid #fff;
   background-image: url("images/architecture-atomium-15950856.jpg");
   background-attachment: fixed;
@@ -21,6 +21,8 @@ body, html {height: 100%; margin: 0}
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+}
+.main-bg-img {
   min-height: 400px;
   height: 100%;
 }
