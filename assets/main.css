@@ -54,8 +54,12 @@ img.logo {
 .main-content {
   margin: auto;
   width: 100%;
+  max-width: 1600px;
 }
-.main-content .jdb-row-padding .jdb-half.as-bg {
+.main-content .jdb-row-padding {
+  display: flex;
+}
+.main-content .jdb-row-padding .jdb-col .as-bg {
   background-image: url("images/groupe-ensemble.jpg");
   background-position: center;
   background-repeat: no-repeat;
