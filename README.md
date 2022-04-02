@@ -6,7 +6,7 @@
 
 ---
 
-Consultez [GitHub](https://shr.wetrafa.xyz/2zcBcwZ), [Netlify](https://shr.wetrafa.xyz/2z0pjd4) ou [Vercel](https://shr.wetrafa.xyz/3pttiHf) pour en savoir plus. Pour que tout soit parfait, je vous fourni une URL libre, élégante et qui correspond à votre domaine et zone d'activité comme indiqué dans les exemples ci-dessus.
+Consultez [GitHub Pages](https://shr.wetrafa.xyz/2zcBcwZ), [Netlify](https://shr.wetrafa.xyz/2z0pjd4), [Vercel](https://shr.wetrafa.xyz/3pttiHf) ou [Cloudflare Pages](https://shr.wetrafa.xyz/3u3dfFe) pour en savoir plus. Pour que tout soit parfait, je vous fourni une URL libre, élégante et qui correspond à votre domaine et zone d'activité comme indiqué dans les exemples ci-dessus.
 
 Vous êtes prêt.e à avoir votre place sur bruxelles.dev ? Faites votre demande via [GitHub](https://github.com/jdbruxelles/bruxelles-dev) ou [contactez-moi](https://jose.bruxelles.dev/contact) directement. *Plus de détails seront fournis ultérieurement*.
 
