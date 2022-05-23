@@ -1,0 +1,25 @@
+// There is a list of reserved subdomain keywords.
+export const restricted = [
+  "a-propos",
+  "admin",
+  "admins",
+  "api",
+  "app",
+  "blog",
+  "cdn",
+  "doc",
+  "docs",
+  "documentation",
+  "domain",
+  "donate",
+  "fund",
+  "git",
+  "gov",
+  "inscription",
+  "m",
+  "mobile",
+  "shop",
+  "store",
+  "support",
+  "web"
+];
