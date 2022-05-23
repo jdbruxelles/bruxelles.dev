@@ -1,4 +1,19 @@
 ###########################
+# HEADERS
+###########################
+[[headers]]
+  for = "/assets/images/*"
+  [headers.values]
+    # cache for 10 days
+    cache-control = "max-age=864000"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+###########################
 # REDIRECTS COMMANDS
 ###########################
 [[redirects]]
