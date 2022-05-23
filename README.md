@@ -12,3 +12,7 @@ Vous êtes prêt.e à avoir votre place sur bruxelles.dev ? Faites votre demand
 
 ---
 **Important** : En tant que propriétaire du référentiel, vous gardez un contrôle total sur votre contenu publié. Cela signifie également que tous les droits et obligations (par exemple, RGPD) liés à la publication de votre site sous bruxelles.dev restent sous votre responsabilité.
+
+## Report abuse
+
+If you believe one of the subdomains is abusing the service, [please report it](https://github.com/jdbruxelles/bruxelles-dev/issues/new?labels=report-abuse&template=report-abuse.md&title=Report+abuse).
