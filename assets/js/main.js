@@ -1,6 +1,6 @@
-$(document).ready(function(){
-  var current_step = 0;
-  var typed = new Typed("#typed-subdomain", {
+$(document).ready(() => {
+  let current_step = 0;
+  const typed = new Typed("#typed-subdomain", {
     strings: [
       "votre", "domaine", "gratuit",
       "prenom", "nom", "pseudo",
@@ -16,17 +16,17 @@ $(document).ready(function(){
     cursorChar: "|"
   });
 
-  $("#x-container-1 .tablink").each(function(){
+  $("#x-container-1 .tablink").each(() => {
     $(this).click(function(event) {
       if (event.currentTarget.text == $(".steps-container .step-container:visible").attr("id").split("-")[1]) {
-        if ($(".steps-container #step-" + event.currentTarget.text).is(":visible")) { return; }
+        if ($(`.steps-container #step-${event.currentTarget.text}`).is(":visible")) return;
       }
 
       $("#x-container-1 .tablink").removeClass("jdb-topbar");
       $(this).addClass("jdb-topbar");
 
       $(".steps-container .step-container").slideUp();
-      $(".steps-container #step-" + event.currentTarget.text).slideDown();
+      $(`.steps-container #step-${event.currentTarget.text}`).slideDown();
     });
   });
 
@@ -52,10 +52,10 @@ $(document).ready(function(){
     }
   });
 
-  $("[data-target-to]").each(function(){
+  $("[data-target-to]").each(() => {
     $(this).click(function(){
-      var selector = $(this).data("target-to");
-      
+      const selector = $(this).data("target-to");
+
       $("html, body").animate({
         scrollTop: $(selector).offset().top
       }, "slow");
