@@ -1,0 +1,8 @@
+###########################
+# REDIRECTS COMMANDS
+###########################
+[[redirects]]
+  from = "/*"
+  to = "/?ref=404"
+  status = 301
+  force = false
