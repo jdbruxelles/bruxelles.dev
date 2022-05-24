@@ -1,0 +1,24 @@
+name: Feedback/suggestion
+description: Use this template for feedbacks and suggestions
+labels: 'suggestion'
+body:
+  - type: dropdown
+    attributes:
+      label: What type is this, feedback or suggestion?
+      multiple: false
+      options:
+        - Feedback
+        - Suggestion
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Please describe what you think
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Domain concerned (optional)
+      placeholder: 'For example: chunky'
+    validations:
+      required: false

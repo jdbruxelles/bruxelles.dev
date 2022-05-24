@@ -1,0 +1,22 @@
+name: Report abuse
+description: Create a report for abusive domains
+labels: 'report-abuse'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hi, thank you for taking the time to create an issue!
+        
+        Before opening this issue, please make sure that there's [no other issue](https://github.com/jdbruxelles/bruxelles-dev/issues?q=is%3Aissue) that already describes the abuse.
+  - type: textarea
+    attributes:
+      label: Describe the abuse
+      description: Explain why you think this domain is being abused.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Domain you want to report
+      placeholder: 'For example: chunky'
+    validations:
+      required: true

@@ -1,0 +1,16 @@
+name: Support
+description: Ask any support with your domain
+labels: 'support'
+body:
+  - type: textarea
+    attributes:
+      label: Describe your request
+      description: Explain any issues you are facing
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Domain concerned (yours)
+      placeholder: 'For example: chunky'
+    validations:
+      required: true
