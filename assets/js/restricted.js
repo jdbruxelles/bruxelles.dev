@@ -1,5 +1,7 @@
 // There is a list of reserved subdomain keywords.
 export const restricted = [
+  "^[a-z]{1}$",
+  "about",
   "a-propos",
   "admin",
   "admins",
@@ -7,6 +9,7 @@ export const restricted = [
   "app",
   "blog",
   "cdn",
+  "commerce",
   "doc",
   "docs",
   "documentation",

@@ -3,9 +3,10 @@ export const taken = [
   "app",
   "css",
   "dactylo",
-  "dt",
-  "jd",
+  "*.dt",
+  "*.jd",
   "jose",
   "lisibl",
-  "nt-challenge"
+  "nt-challenge",
+  "si18n.js"
 ];
