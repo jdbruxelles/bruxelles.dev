@@ -17,6 +17,18 @@
 # REDIRECTS COMMANDS
 ###########################
 [[redirects]]
+  from = "/favicon.ico"
+  to = "https://jd.bruxelles.dev/favicon.svg"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/favicon.svg"
+  to = "https://jd.bruxelles.dev/favicon.svg"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/?ref=404"
   status = 301
